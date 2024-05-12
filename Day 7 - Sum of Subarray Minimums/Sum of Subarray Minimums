@@ -1,0 +1,50 @@
+Sum of Subarray Minimums
+
+Problem: Sum of Subarray Minimums
+
+Given: An array of integers, for example: [3, 1, 2, 4]
+
+Task: Find the sum of the minimum values in all possible subarrays of the given array.
+
+What is a subarray? A subarray is a contiguous part of the original array. For example, in the array [3, 1, 2, 4], the subarrays are:
+
+[3]
+[1]
+[2]
+[4]
+[3, 1]
+[1, 2]
+[2, 4]
+[3, 1, 2]
+[1, 2, 4]
+[3, 1, 2, 4]
+What is the minimum value in a subarray? The minimum value in a subarray is the smallest number in that subarray. For example:
+
+In the subarray [3, 1], the minimum value is 1.
+In the subarray [1, 2, 4], the minimum value is 1.
+In the subarray [3, 1, 2, 4], the minimum value is 1.
+Task: Find the sum of all these minimum values in all possible subarrays.
+
+Example: For the array [3, 1, 2, 4], the sum of the minimum values in all subarrays is:
+
+[3]: minimum value is 3, sum is 3
+[1]: minimum value is 1, sum is 1
+[2]: minimum value is 2, sum is 2
+[4]: minimum value is 4, sum is 4
+[3, 1]: minimum value is 1, sum is 1
+[1, 2]: minimum value is 1, sum is 1
+[2, 4]: minimum value is 2, sum is 2
+[3, 1, 2]: minimum value is 1, sum is 1
+[1, 2, 4]: minimum value is 1, sum is 1
+[3, 1, 2, 4]: minimum value is 1, sum is 1
+The total sum is: 3 + 1 + 2 + 4 + 1 + 1 + 2 + 1 + 1 + 1 = 17
+
+So, the answer for the array [3, 1, 2, 4] is 17.
+
+I hope this explanation helps! Let me know if you have any further questions.
+
+
+Constraints:
+
+1 <= arr.length <= 3 * 104
+1 <= arr[i] <= 3 * 104
